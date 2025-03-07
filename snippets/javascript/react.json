@@ -347,6 +347,13 @@
         ],
         "description": "React useMemo() hook"
     },
+    "useTransition": {
+        "prefix": "utr",
+        "body": [
+            "const [pending, startTransition] = useTransition()"
+        ],
+        "description": "React useTransition hook"
+    },
     "describeBlock": {
         "prefix": "desc",
         "body": ["describe('$1', () => {", "  $0", "})", ""],
